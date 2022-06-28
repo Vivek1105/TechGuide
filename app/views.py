@@ -30,6 +30,12 @@ def google(request):
 def amazon(request):
     return render(request,'amazon.html')
 
+def adobe(request):
+    return render(request,'adobe.html')
+
+def intel(request):
+    return render(request,'intel.html')
+
 
 
 def contact(request):
