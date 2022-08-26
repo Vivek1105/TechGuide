@@ -21,5 +21,6 @@ urlpatterns = [
     path('amazon',views.amazon,name='amazon'),
     path('adobe',views.adobe,name='adobe'),
     path('intel',views.intel,name='intel'),
+    path('tcs',views.tcs,name='tcs'),
     
 ]

@@ -36,6 +36,9 @@ def adobe(request):
 def intel(request):
     return render(request,'intel.html')
 
+def tcs(request):
+    return render(request,'tcs.html')
+
 
 
 def contact(request):
